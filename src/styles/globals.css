@@ -2,32 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: none;
+    background: #000;
+    color: #fff;
+    font-family: "sofia pro black", helvetica Neue, Arial, sans-serif;
+}
+#navbar{
+    background-color: rgba(0,0,0,.9);
+    padding: 13px 0;
+}
+.img{
+    animation: p .5s infinite linear;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@keyframes p{
+    50%{
+        transform:  scale(1.2);
+    }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.font{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+sup{
+    top: -.5em;
+    font-size: .70em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.borda{
+    border-collapse: separate;
+    border-radius: 20px;
+    border-spacing: 0;
+}
+
+.text1{
+    text-shadow: 0 0 20px #94a3b8,
+    0 0 40px #94a3b8;
+}
+.text2{
+    text-shadow: 0 0 20px #65a30d,
+    0 0 40px #84cc16;
+}
+.text3{
+    text-shadow: 0 0 20px #0e7490,
+    0 0 40px #06b6d4;
+}
+.text4{
+    text-shadow: 0 0 20px #b91c1c,
+    0 0 40px #b91c1c;
 }
