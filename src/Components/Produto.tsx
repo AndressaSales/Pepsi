@@ -13,7 +13,7 @@ export default function Produtro(){
                                 width={230}
                                 height={200}
                                 alt="PEP-ZERO"
-                                className=""
+                                className="hover:scale-110 duration-200"
                             />
                         </Link>
                     </div>
@@ -36,6 +36,7 @@ export default function Produtro(){
                                 width={230}
                                 height={200}
                                 alt="PEP-ZERO-LIMA"
+                                className="hover:scale-110 duration-200"
                             />
                         </Link>
                     </div>
@@ -63,6 +64,7 @@ export default function Produtro(){
                                 width={230}
                                 height={200}
                                 alt="PEP-ZERO"
+                                className="hover:scale-110 duration-200"
                             />
                         </Link>
                     </div>
@@ -85,6 +87,7 @@ export default function Produtro(){
                             width={230}
                             height={200}
                             alt="PEP-ZERO"
+                            className="hover:scale-110 duration-200"
                         />
                     </Link>
                 </div>
