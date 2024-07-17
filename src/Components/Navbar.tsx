@@ -45,7 +45,7 @@ export default function Navbar(){
                 <div className="sm:hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div className="text-center flex  lg:flex-row">
                         <Link className="hover:text-[#0025ff]  lg:ml-80 lg:mr-32 pt-4" href={'/Produtos'}>PRODUTOS</Link>
-                        <Link className="hover:text-[#0025ff] lg:mr-32 lg:pt-4" href={'/Time'}>PASSATEMPOS</Link>
+                        <Link className="hover:text-[#0025ff] lg:mr-32 lg:pt-4" href={'/Passatempo'}>PASSATEMPOS</Link>
                         <Link className="hover:text-[#0025ff] lg:pt-4" href={'/Contatos'}>CONTATOS</Link>
                     </div>
                 </div>
