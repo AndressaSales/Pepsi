@@ -1,10 +1,18 @@
 import Navbar from "@/Components/Navbar";
 import Image from "next/image";
+import Link from "next/link"
 
 export default function PepsiZeroAcura(){
     return(
         <main>
             <Navbar />
+             <div className="pl-20 pt-10">
+                <Link href={'/Produtos'}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    </svg>
+                </Link>
+            </div>
             <div className="lg:flex lg:float-ledt grid grid-col-1 gap-7 mx-auto p-2 max-w-5xl mb-16 mt-10">
                 <div className="items-center flex justify-center">
                     <Image
